@@ -16,7 +16,7 @@ Project Structure:
 
 Installation:
 
-1.Clone the repository
+1. Clone the repository
 git clone https://github.com/your-repo/blstm-speech-recognition.git
 cd blstm-speech-recognition
 
