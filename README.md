@@ -65,7 +65,7 @@ Output Layer: Softmax activation for multi-class classification
 
 Performance Metrics:
 The model's performance is measured using:
-✅ Accuracy
+✅ Accuracy    
 ✅ Precision, Recall, and F1-score
 ✅ Confusion Matrix
 
