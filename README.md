@@ -4,7 +4,9 @@ This repository contains a Bidirectional Long Short-Term Memory (BLSTM) model fo
 
 
 
-Project Structure:    
+
+
+**Project Structure:**     
 ├── data_preprocessing.py  # Handles feature extraction and normalization  
 ├── model.py               # Defines the BLSTM model architecture  
 ├── train.py               # Handles model training using K-fold cross-validation  
@@ -14,19 +16,26 @@ Project Structure:
 ├── README.md              # Project documentation  
 
 
-Installation:    
 
-1. Clone the repository    
+
+
+**Installation:**    
+
+*1. Clone the repository*     
 git clone https://github.com/your-repo/blstm-speech-recognition.git    
 
 
 
-2. Install dependencies    
+*2. Install dependencies*    
 pip install -r requirements.txt    
 
 
 
-Dataset format:    
+
+
+
+**Dataset format:** 
+
 dataset/    
 │── class_1/    
 │   ├── file1.wav    
@@ -38,23 +47,30 @@ dataset/
     
 
 
-How to Run the Project    
-Step 1: Extract Features    
+
+
+
+**How to Run the Project:**        
+
+*Step 1: Extract Features*    
 Modify main.py to include the correct dataset path. Then run:    
 
 python main.py    
 
 
+*Step 2: Train the Model*    
+Training is handled using 5-fold cross-validation. You can modify the number of epochs and batch size in train.py. 
 
-Step 2: Train the Model    
-Training is handled using 5-fold cross-validation. You can modify the number of epochs and batch size in train.py.    
+
     
-Step 3: Evaluate the Model    
+*Step 3: Evaluate the Model*    
 After training, the model computes classification metrics and plots a confusion matrix.    
 
 
 
-Model Architecture    
+
+
+**Model Architecture:**     
 Input: Mel-spectrogram features extracted from .wav files    
 Hidden Layers:    
     Bidirectional LSTM (64 units) → Dropout    
@@ -63,7 +79,7 @@ Hidden Layers:
 Output Layer: Softmax activation for multi-class classification    
 
 
-Performance Metrics:    
+**Performance Metrics:**    
 The model's performance is measured using:
 ✅ Accuracy        
 ✅ Precision, Recall, and F1-score    
