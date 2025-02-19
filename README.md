@@ -123,7 +123,6 @@ The model's performance is measured using:
   title = {Bi-directional LSTM-based isolated spoken word recognition for Kashmiri language utilizing Mel-spectrogram feature},
   volume = {231},
   ISSN = {0003-682X},
-  url = {http://dx.doi.org/10.1016/j.apacoust.2024.110505},
   DOI = {10.1016/j.apacoust.2024.110505},
   journal = {Applied Acoustics},
   publisher = {Elsevier BV},
