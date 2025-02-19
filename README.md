@@ -90,7 +90,7 @@ The model's performance is measured using:
 **Results:** 
 
 
-## Testing Accuracy, Recall, Precision, and F1-score of the Proposed Bi-directional LSTM Model
+# Testing Accuracy, Recall, Precision, and F1-score of the Proposed Bi-directional LSTM Model
 
 | **Class**  | **Precision** | **Recall** | **F1-score** | **Testing Accuracy** |
 |------------|-------------|------------|-------------|------------------|
@@ -114,6 +114,25 @@ The model's performance is measured using:
 | Ardah     | 84.43%      | 88.89%     | 86.60%      | 84.44%          |
 | Kunvuh    | 83.20%      | 89.44%     | 86.21%      | 83.89%          |
 | Vuh       | 87.79%      | 83.89%     | 85.80%      | 88.33%          |
+
+
+
+## Publication ##    
+
+@article{Dar2025,
+  title = {Bi-directional LSTM-based isolated spoken word recognition for Kashmiri language utilizing Mel-spectrogram feature},
+  volume = {231},
+  ISSN = {0003-682X},
+  url = {http://dx.doi.org/10.1016/j.apacoust.2024.110505},
+  DOI = {10.1016/j.apacoust.2024.110505},
+  journal = {Applied Acoustics},
+  publisher = {Elsevier BV},
+  author = {Dar,  Muzaffar Ahmad and Pushparaj,  Jagalingam},
+  year = {2025},
+  month = mar,
+  pages = {110505}
+}
+
 
 
 
