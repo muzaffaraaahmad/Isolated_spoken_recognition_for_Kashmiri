@@ -83,7 +83,38 @@ Output Layer: Softmax activation for multi-class classification
 The model's performance is measured using:
 ✅ Accuracy        
 ✅ Precision, Recall, and F1-score    
-✅ Confusion Matrix    
+✅ Confusion Matrix 
+
+
+
+**Results:** 
+
+
+## Testing Accuracy, Recall, Precision, and F1-score of the Proposed Bi-directional LSTM Model
+
+| **Class**  | **Precision** | **Recall** | **F1-score** | **Testing Accuracy** |
+|------------|-------------|------------|-------------|------------------|
+| Akh       | 85.71%      | 83.33%     | 84.51%      | 77.78%          |
+| Zi        | 91.12%      | 88.33%     | 89.70%      | 83.33%          |
+| Thre      | 90.91%      | 88.89%     | 89.89%      | 88.89%          |
+| Tsor      | 91.29%      | 84.44%     | 87.73%      | 86.94%          |
+| Paanch    | 86.46%      | 83.33%     | 84.87%      | 79.17%          |
+| Sheh      | 82.72%      | 87.78%     | 85.18%      | 84.17%          |
+| Sath      | 84.14%      | 86.94%     | 85.52%      | 86.39%          |
+| Aeth      | 84.34%      | 77.78%     | 80.92%      | 89.44%          |
+| Nav       | 88.83%      | 86.11%     | 87.45%      | 86.11%          |
+| Dah       | 77.10%      | 84.17%     | 80.48%      | 83.33%          |
+| Kah       | 79.95%      | 86.39%     | 83.04%      | 85.00%          |
+| Bah       | 83.69%      | 86.94%     | 85.29%      | 82.78%          |
+| Truwah    | 87.85%      | 86.39%     | 87.11%      | 86.94%          |
+| Czhodah   | 84.57%      | 79.17%     | 81.78%      | 87.78%          |
+| Pandah    | 85.47%      | 85.00%     | 85.24%      | 85.56%          |
+| Shurah    | 88.51%      | 85.56%     | 87.01%      | 88.89%          |
+| Sadah     | 80.32%      | 82.78%     | 81.53%      | 86.39%          |
+| Ardah     | 84.43%      | 88.89%     | 86.60%      | 84.44%          |
+| Kunvuh    | 83.20%      | 89.44%     | 86.21%      | 83.89%          |
+| Vuh       | 87.79%      | 83.89%     | 85.80%      | 88.33%          |
+
 
 
 
